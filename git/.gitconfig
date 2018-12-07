@@ -1,0 +1,7 @@
+[user]
+	name = John Doe
+	email = johndoe21@gmail.com
+[push]
+	default = simple
+[diff]
+	tool = vimdiff

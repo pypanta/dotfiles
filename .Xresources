@@ -1,0 +1,67 @@
+! Font Configuration
+! URxvt.font:     xft:SourceCodePro-Medium:size=11
+URxvt.font:     xft:FiraCode:size=12
+! :antialias=true
+! URxvt.boldFont: xft:SourceCodePro-Medium:bold:size=11
+URxvt.boldFont: xft:FiraCode:bold:size=12
+URxvt.italicFont: xft:FiraCode Light:italic:size=12
+!:antialias=true
+URxvt.letterSpace: -1
+
+Xft.lcdfilter: lcddefault
+
+Xft*dpi:                    96
+Xft*antialias:              true
+Xft*hinting:                true
+Xft*hintstyle:              hintfull
+Xft*rgba:                   rgb
+
+! Google Material Design
+
+*background 		: #263238
+*foreground 		: #eceff1
+
+! black
+*color0  			: #263238
+*color8  			: #37474f
+! red
+*color1  			: #ff9800
+*color9  			: #ffa74d
+! green
+*color2  			: #8bc34a
+*color10 			: #9ccc65
+! yellow
+*color3  			: #ffc107
+*color11 			: #ffa000
+! blue
+*color4  			: #03a9f4
+*color12 			: #81d4fa
+! magenta
+*color5  			: #e91e63
+*color13 			: #ad1457
+! cyan
+*color6  			: #009688
+*color14 			: #26a69a
+! white
+*color7  			: #cfd8dc
+*color15 			: #eceff1
+
+! Scrollbar On/OFF, position and style (default, plain, next or xterm)
+URxvt*scrollBar: false
+!URxvt*scrollBar_right: true
+!URxvt*scrollstyle: plain
+
+! Tabs, clickable URLs
+URxvt.perl-ext-common: default,matcher,tabbed,resize-font
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+
+! Tab colors
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 4
+URxvt.tabbed.tab-bg: 0
+
+! Copy Paste
+!URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+!URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
