@@ -78,6 +78,7 @@ export PATH=$PATH:$HOME/scripts
 # else
 #   export EDITOR='mvim'
 # fi
+export EDITOR='/usr/local/bin/vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -103,8 +104,21 @@ vim()
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias dc="docker"
+alias df="df -h|awk 'NR==1; /sd\w+/{print}'"
+alias dim="docker images"
+alias dps="docker ps"
+alias dpsa="docker ps -a"
+alias dco="docker-compose"
+alias dcol="docker-compose logs"
+alias dcoe="docker-compose exec"
+alias postman="/home/panta/programs/Postman/Postman"
+alias pxc="proxychains"
 alias r="ranger"
-alias v="vim"
 alias sens="sensors|grep -oE 'fan1+\:+\s+[0-9]+\s+[A-Z]+.'"
 alias subd="subliminal download -s -l"
-alias ytdl="youtube-dl"
+alias v="vim"
+alias ytdl="/home/panta/scripts/youtube-dl"
+
+# Fish shell like syntax highlighting for zsh
+source /home/panta/programs/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

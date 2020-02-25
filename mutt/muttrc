@@ -18,13 +18,13 @@ source "gpg -dq $HOME/.mutt/pwds.gpg |"
 source ~/.mutt/gpg.rc
 
 # Personal
-folder-hook 'john21' 'source ~/.mutt/personal'
+folder-hook 'MyMail21' 'source ~/.mutt/personal'
 
 # Work
 #folder-hook $folder 'source ~/.mutt/work'
-folder-hook 'john' 'source ~/.mutt/work'
+folder-hook 'pypanta' 'source ~/.mutt/work'
 
-source ~/.mutt/personal
+source "~/.mutt/personal"
 
 macro index <f2> '<sync-mailbox><enter-command>source ~/.mutt/personal<enter><change-folder>!<enter>'
 macro index <f3> '<sync-mailbox><enter-command>source ~/.mutt/work<enter><change-folder>!<enter>'

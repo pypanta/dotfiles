@@ -1,2 +1,2 @@
 #!/bin/sh
-feh  --bg-scale '/home/panta/Pictures/gLinux.jpeg' 
+feh --bg-scale '/home/panta/Pictures/gLinux.jpeg' 

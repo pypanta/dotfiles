@@ -1,7 +1,9 @@
 [user]
-	name = John Doe
-	email = johndoe21@gmail.com
+	name = Aleksandar Pantic
+	email = MyMail21@gmail.com
 [push]
 	default = simple
 [diff]
 	tool = vimdiff
+[core]
+	editor = vim
