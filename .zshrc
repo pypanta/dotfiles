@@ -105,20 +105,23 @@ vim()
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias dc="docker"
+alias dco="docker-compose"
+alias dcoe="docker-compose exec"
+alias dcol="docker-compose logs"
 alias df="df -h|awk 'NR==1; /sd\w+/{print}'"
 alias dim="docker images"
 alias dps="docker ps"
 alias dpsa="docker ps -a"
-alias dco="docker-compose"
-alias dcol="docker-compose logs"
-alias dcoe="docker-compose exec"
+alias mi="./manage.py migrate"
+alias mm="./manage.py makemigrations"
 alias postman="/home/panta/programs/Postman/Postman"
 alias pxc="proxychains"
 alias r="ranger"
+alias rus="./manage.py runserver"
 alias sens="sensors|grep -oE 'fan1+\:+\s+[0-9]+\s+[A-Z]+.'"
 alias subd="subliminal download -s -l"
 alias v="vim"
-alias ytdl="/home/panta/scripts/youtube-dl"
+alias ytdl="/home/panta/programs/youtube-dl"
 
 # Fish shell like syntax highlighting for zsh
 source /home/panta/programs/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

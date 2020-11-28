@@ -7,3 +7,11 @@
 	tool = vimdiff
 [core]
 	editor = vim
+[alias]
+    d = diff
+    a = add
+    aa = add --all
+    c = commit
+    cm = commit -m
+    ca = commit -a
+    s = status
